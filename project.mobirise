@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "muute",
+    "name": "muutesessions",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -27,7 +27,7 @@
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": true
       },
       "additionalSetColors": [
         "#6a5acd"

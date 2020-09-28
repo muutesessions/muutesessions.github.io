@@ -176,7 +176,8 @@
     "witsec-mailform-recaptcha-score": "0.5",
     "witsec-mailform-disable-button": false,
     "witsec-mailform": false,
-    "global_header_custom": "<meta name=\"google-site-verification\" content=\"sMuMLCNS0PB9lnvMn6HogX7LFN6Wdg1PbL2BLZbV9_U\" />\ngoogle-site-verification: googlebaddc9bf2a74ae23.html"
+    "global_header_custom": "<meta name=\"google-site-verification\" content=\"sMuMLCNS0PB9lnvMn6HogX7LFN6Wdg1PbL2BLZbV9_U\" />",
+    "global_before_html": "google-site-verification: googlebaddc9bf2a74ae23.html"
   },
   "pages": {
     "index.html": {

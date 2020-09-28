@@ -2059,6 +2059,139 @@ a {
     left: -1rem;
   }
 }
+.cid-sbSBdMlbPk {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+  background: #5f51ba;
+}
+.cid-sbSBdMlbPk .team-card {
+  margin-bottom: 2rem;
+  transition: all 0.3s;
+}
+.cid-sbSBdMlbPk .team-card:hover {
+  transform: translateY(-10px);
+}
+.cid-sbSBdMlbPk .card-wrap {
+  background: #fafafa;
+  border-radius: 4px;
+}
+@media (max-width: 991px) {
+  .cid-sbSBdMlbPk .card-wrap {
+    margin-bottom: 2rem;
+  }
+}
+.cid-sbSBdMlbPk .card-wrap .image-wrap img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .cid-sbSBdMlbPk .card-wrap .content-wrap {
+    padding: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sbSBdMlbPk .card-wrap .content-wrap {
+    padding: 1rem;
+  }
+}
+.cid-sbSBdMlbPk .social-row {
+  text-align: center;
+}
+.cid-sbSBdMlbPk .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6a5acd;
+  transition: all 0.3s;
+}
+.cid-sbSBdMlbPk .social-row .soc-item .mbr-iconfont {
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6a5acd;
+  font-size: 1.5rem;
+}
+.cid-sbSBdMlbPk .social-row .soc-item:hover {
+  background-color: #6a5acd;
+}
+.cid-sbSBdMlbPk .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+.cid-sbSBdMlbPk .mbr-section-title {
+  color: #ffffff;
+}
+.cid-sbSBdMlbPk .card-title,
+.cid-sbSBdMlbPk .social-row {
+  color: #000000;
+}
+.cid-lytFLnsDti input,
+.cid-lytFLnsDti textarea,
+.cid-lytFLnsDti button,
+.cid-lytFLnsDti select,
+.cid-lytFLnsDti a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.cid-lytFLnsDti .wrap {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  bottom: 50;
+  right: 0;
+  padding-right: 20px;
+  background-color: #6a5acd;
+  z-index: 2;
+  visibility: visible;
+}
+.cid-lytFLnsDti .copyright {
+  position: fixed;
+  z-index: 1;
+  visibility: visible;
+  margin-left: 10px;
+  left: 0;
+  padding-left: 20px;
+}
+@media (min-width: 768px) {
+  .cid-lytFLnsDti .wrap {
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 768px) {
+  .cid-lytFLnsDti .wrap {
+    justify-content: space-around;
+    padding-right: 0px;
+  }
+  .cid-lytFLnsDti .copyright {
+    visibility: hidden;
+  }
+}
+.cid-lytFLnsDti .item {
+  border-radius: 50%;
+  font-size: 30px;
+  font-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.cid-lytFLnsDti .hidden {
+  display: none;
+}
+.cid-lytFLnsDti .show {
+  visibility: visible !important;
+  bottom: 0;
+}
+.cid-lytFLnsDti .mbr-section-subtitle {
+  color: #ffffff;
+}
 .cid-sbOookYcAg {
   z-index: 1000;
   width: 100%;
@@ -2407,72 +2540,4 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
-}
-.cid-sbSBdMlbPk {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background: #5f51ba;
-}
-.cid-sbSBdMlbPk .team-card {
-  margin-bottom: 2rem;
-  transition: all 0.3s;
-}
-.cid-sbSBdMlbPk .team-card:hover {
-  transform: translateY(-10px);
-}
-.cid-sbSBdMlbPk .card-wrap {
-  background: #fafafa;
-  border-radius: 4px;
-}
-@media (max-width: 991px) {
-  .cid-sbSBdMlbPk .card-wrap {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sbSBdMlbPk .card-wrap .image-wrap img {
-  width: 100%;
-}
-@media (min-width: 768px) {
-  .cid-sbSBdMlbPk .card-wrap .content-wrap {
-    padding: 2rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-sbSBdMlbPk .card-wrap .content-wrap {
-    padding: 1rem;
-  }
-}
-.cid-sbSBdMlbPk .social-row {
-  text-align: center;
-}
-.cid-sbSBdMlbPk .social-row .soc-item {
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  margin-right: 0.6rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  border: 2px solid #6a5acd;
-  transition: all 0.3s;
-}
-.cid-sbSBdMlbPk .social-row .soc-item .mbr-iconfont {
-  transition: all 0.3s;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  color: #6a5acd;
-  font-size: 1.5rem;
-}
-.cid-sbSBdMlbPk .social-row .soc-item:hover {
-  background-color: #6a5acd;
-}
-.cid-sbSBdMlbPk .social-row .soc-item:hover .mbr-iconfont {
-  color: #ffffff;
-}
-.cid-sbSBdMlbPk .mbr-section-title {
-  color: #ffffff;
-}
-.cid-sbSBdMlbPk .card-title,
-.cid-sbSBdMlbPk .social-row {
-  color: #000000;
 }

@@ -155,7 +155,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "witsec-white-label": true,
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "witsec-language": "fr",
@@ -176,16 +176,16 @@
     "witsec-mailform-recaptcha-score": "0.5",
     "witsec-mailform-disable-button": false,
     "witsec-mailform": false,
-    "global_header_custom": "<meta name=\"google-site-verification\" content=\"sMuMLCNS0PB9lnvMn6HogX7LFN6Wdg1PbL2BLZbV9_U\" />",
-    "global_before_html": "google-site-verification: googlebaddc9bf2a74ae23.html"
+    "global_header_custom": "",
+    "global_before_html": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "muutesessions",
-        "meta_descr": "accueil",
-        "header_custom": "",
+        "title": "muute sessions",
+        "meta_descr": "page d'accueil",
+        "header_custom": "<meta name=\"google-site-verification\" content=\"sMuMLCNS0PB9lnvMn6HogX7LFN6Wdg1PbL2BLZbV9_U\" />",
         "footer_custom": "",
         "html_before": ""
       },
@@ -794,7 +794,7 @@
     },
     "gallerie.html": {
       "settings": {
-        "title": "gallerie @muutesessions",
+        "title": "gallerie",
         "order": 2,
         "meta_descr": "découvrez nos créations"
       },
@@ -1460,7 +1460,7 @@
     },
     "services.html": {
       "settings": {
-        "title": "services @muutesessions",
+        "title": "services",
         "order": 3,
         "meta_descr": "que vous proposons nous ?"
       },
@@ -2062,7 +2062,7 @@
     },
     "artistes.html": {
       "settings": {
-        "title": "artistes @muutesessions",
+        "title": "artistes",
         "order": 1,
         "meta_descr": "qui soutenons nous ?"
       },

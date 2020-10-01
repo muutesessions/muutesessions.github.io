@@ -58,7 +58,7 @@
     </nav>
 </section>
 
-<section class="header6 cid-sbH1QCcgUd mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=XiRrj2I8TDs" id="header6-3">
+<section class="header6 cid-sbH1QCcgUd mbr-fullscreen" data-bg-video="https://www.youtube.com/watch?v=XiRrj2I8TDs&amp;feature=youtu.be&amp;t=6" id="header6-3">
 
     
 
@@ -69,14 +69,74 @@
             <div class="col-12 col-lg-10">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1">MUUTE</h1>
                 
-                <p class="mbr-text mbr-white mbr-fonts-style display-7">Label indépendant, concepteur visuel.</p>
+                <p class="mbr-text mbr-white mbr-fonts-style display-7"><a style="color:#fafafa" href="" class="typewrite" data-period="2000" data-type="[ &quot;Label indépendant,&quot;, &quot;concepteur visuel.&quot; ]">
+    <span class="wrap"></span>
+  </a></p>
                 <div class="mbr-section-btn mt-3"><a class="btn btn-primary display-4" href="mailto:muutesessions@gmail.com"><span class="mobi-mbri mobi-mbri-upload-2 mbr-iconfont mbr-iconfont-btn"><br></span>candidature / demo</a></div>
             </div>
         </div>
     </div>
+    <script>
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+    </script>
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-n" data-rv-view="8">
+<section class="mbr-section" id="witsec-modal-window-block-n" data-rv-view="2139">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -129,11 +189,17 @@
 
 </section><script>
 document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("1"); } , 0);
+  if (modalGetCookie("1_viewed") == "") {
+    setTimeout( function() {
+      
+        modalSetCookie("1_viewed", true, 3600);
+      OpenModal("1");
+    } , 0);
+  }
 });
 </script>
 
-<section class="mbr-section" id="witsec-modal-window-block-13" data-rv-view="9">
+<section class="mbr-section" id="witsec-modal-window-block-13" data-rv-view="2140">
 
 	<style>
 	/* Let's not animate the contents of modal windows */
@@ -186,11 +252,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </section><script>
 document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("2"); } , 2000);
+  setTimeout( function() { OpenModal("2"); } , 5000);
 });
 </script>
 
-<section class="cid-8Pt7sewpDP" id="design-block-8Pt7sewpDP">
+<section class="cid-YjK56Brh0b" id="design-block-YjK56Brh0b">
 
 
 
@@ -198,7 +264,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <div class="wrap show">
 
-<h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style copyright display-7">site conçu par&nbsp;<a href="https://twitter.com/lnrthblt" target="_blank" class="text-primary">Thibault Lenoir</a>&nbsp;©2020 </h3>
+<h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style copyright display-7">Codé par&nbsp;<a href="https://twitter.com/lnrthblt" target="_blank" class="text-primary">Thibault Lenoir</a>&nbsp;©2020 </h3>
 
 
 
@@ -208,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-<a class="item mbr-iconfont mobi-mbri-hot-cup mobi-mbri" href="https://www.buymeacoffee.com/muutesessions" media-simple="true" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255); background-color:#6a5acd"></a>
+<a class="item mbr-iconfont mobi-mbri-hot-cup mobi-mbri" style="color: rgb(250, 250, 250); fill: rgb(250, 250, 250);" href="https://www.buymeacoffee.com/muutesessions" media-simple="true"></a>
 
 </div>
 

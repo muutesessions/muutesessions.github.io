@@ -1040,8 +1040,31 @@ a {
   color: #fafafa;
 }
 .cid-sbH1QCcgUd .dropdown-item:hover {
-  border-color: #6a5acd;
+  border-color: #fafafa;
   background-color: #00000000;
+}
+.cid-sbH1QCcgUd .social {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cid-sbH1QCcgUd .social a {
+  display: block;
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: #fafafa;
+  font-size: 20px;
+  background: #00000000;
+  border-radius: 10%;
+  margin: 10px;
+}
+.cid-sbH1QCcgUd .social a:hover {
+  background-color: #6a5acd40;
+  filter: drop-shadow(0 2px 4px #000000);
 }
 .cid-YjK56Brh0b input,
 .cid-YjK56Brh0b textarea,

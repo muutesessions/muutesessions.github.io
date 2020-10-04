@@ -1039,26 +1039,9 @@ a {
 .cid-sbH1QCcgUd .mbr-section-btn {
   color: #fafafa;
 }
-.cid-sbH1QCcgUd .animated-word {
-  position: fixed;
-  bottom: 20%;
-  left: 10%;
-  font-family: "Optician-Sans";
-  font-size: 24px;
-  text-align: center;
-  color: #ffffff08;
-  cursor: pointer;
-  width: 17%;
-  outline: 3px solid;
-  outline-color: #00000000;
-  outline-offset: 12px;
-  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
-  padding-top: 18px;
-}
-.cid-sbH1QCcgUd .animated-word:hover {
-  color: #fafafa;
-  outline-color: #fafafa;
-  outline-offset: 1px;
+.cid-sbH1QCcgUd .dropdown-item:hover {
+  border-color: #6a5acd;
+  background-color: #00000000;
 }
 .cid-YjK56Brh0b input,
 .cid-YjK56Brh0b textarea,

@@ -11,11 +11,11 @@ body {
 }
 .display-2 {
   font-family: 'Nord-Black';
-  font-size: 3rem;
+  font-size: 2.9rem;
   line-height: 1.1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 3.75rem;
+  font-size: 3.625rem;
 }
 .display-4 {
   font-family: 'Optician-Sans';
@@ -58,9 +58,9 @@ body {
     line-height: calc( 1.1 * (2.12rem + (4.2 - 2.12) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.32rem;
+    font-size: calc( 1.665rem + (2.9 - 1.665) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.665rem + (2.9 - 1.665) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.88rem;
@@ -1046,8 +1046,8 @@ a {
   content: "programmation";
 }
 .cid-sbH1QCcgUd .btn:hover {
-  background-color: #fafafa33 !important;
-  border-color: #fafafa80 !important;
+  background-color: #fafafa1f !important;
+  border-color: #fafafabf !important;
 }
 .cid-sbH1QCcgUd .btn:hover:after {
   padding: 0 25px;
@@ -1060,12 +1060,13 @@ a {
   text-align: center;
 }
 .cid-sbH1QCcgUd .social a {
-  padding: 3% 12%;
+  padding: 2% 12%;
   color: #ffffff54;
   background: #00000000;
   transition: all 0.3s ease;
 }
 .cid-sbH1QCcgUd .social a:hover {
+  font-size: 24px !important;
   color: #ffffffa8;
   background-color: #00000000;
   filter: drop-shadow(0 0 1px #fafafa);

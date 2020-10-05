@@ -67,7 +67,7 @@
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(0, 0, 0);"></div>
+    
 
     <div class="align-center container-fluid">
         <div class="row justify-content-center">
@@ -88,123 +88,70 @@
   <a href="https://www.instagram.com/muutesessions" target="_blank" class="socicon socicon-instagram mbr-iconfont-btn" style="font-size: 22px;"></a>
 </div>
 
-    <script>
-    var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
-
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-        document.body.appendChild(css);
-    };
-    </script>
-
 </section>
 
-<section class="mbr-section" id="witsec-modal-window-block-n" data-rv-view="130">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal " id="1" tabindex="-1" role="dialog" aria-labelledby="1Label" aria-hidden="true">  <div class="modal-dialog modal-sm " style="height:auto" role="document">    <div class="modal-content"><div class="modal-body" id="1_body"><center><p style="font-family: Montserrat">Pour revenir ici,<br>cliques sur le logo ci à gauche...</p></center></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#1").on("hidden.bs.modal", function () {    var html = $( "#1_body" ).html();    $( "#1_body" ).empty();    $( "#1_body" ).append(html);  })});</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  setTimeout( function() { OpenModal("1"); } , 0);
-});
-</script><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+<section class="gallery1 cid-scA1QMlZyq" id="gallery1-4m">
+    
+    
+    <div class="container-fluid">
+        
+        <div class="row mt-4">
+            <div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/883705588&amp;color=%236a5acd&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=false"></iframe>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7"><strong>&nbsp;🤹</strong></h5>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/881377918&amp;color=%236a5acd&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=false"></iframe>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7">
+                            <strong>&nbsp;👟</strong>
+                        </h5>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/883630309&amp;color=%236a5acd&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=false"></iframe>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7">
+                            <strong>&nbsp;🕺</strong>
+                        </h5>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div><div class="item features-image сol-12 col-md-6 col-lg-6">
+                <div class="item-wrapper">
+                    <div class="item-img">
+                        <iframe width="100%" height="125" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/848107609&amp;color=%236a5acd&amp;auto_play=true&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=false&amp;visual=false"></iframe>
+                    </div>
+                    <div class="item-content">
+                        <h5 class="item-title mbr-fonts-style display-7">
+                            <strong>&nbsp;🛌</strong></h5>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+    </div>
+</div></section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
 <script src="assets/witsec-mailform/mailform.js"></script>

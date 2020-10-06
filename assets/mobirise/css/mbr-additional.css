@@ -1577,7 +1577,6 @@ a {
 .cid-sbSBdMlbPk {
   padding-top: 5rem;
   padding-bottom: 3rem;
-  background-image: url("../../../assets/images/banner-1920x1080.png");
 }
 .cid-sbSBdMlbPk .team-card {
   margin-bottom: 2rem;
@@ -1587,7 +1586,7 @@ a {
   transform: translateY(-10px);
 }
 .cid-sbSBdMlbPk .card-wrap {
-  background: #fafafa;
+  background: #29ab87;
   border-radius: 4px;
 }
 @media (max-width: 991px) {
@@ -1620,7 +1619,7 @@ a {
   margin-right: 0.6rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
-  border: 2px solid #6a5acd;
+  border: 2px solid #229172;
   transition: all 0.3s;
 }
 .cid-sbSBdMlbPk .social-row .soc-item .mbr-iconfont {
@@ -1628,11 +1627,11 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
-  color: #6a5acd;
+  color: #229172;
   font-size: 1.5rem;
 }
 .cid-sbSBdMlbPk .social-row .soc-item:hover {
-  background-color: #6a5acd;
+  background-color: #229172;
 }
 .cid-sbSBdMlbPk .social-row .soc-item:hover .mbr-iconfont {
   color: #ffffff;
@@ -1642,11 +1641,11 @@ a {
 }
 .cid-sbSBdMlbPk .card-title,
 .cid-sbSBdMlbPk .social-row {
-  color: #000000;
+  color: #ffffff;
 }
 .cid-sbSBdMlbPk .mbr-role,
 .cid-sbSBdMlbPk .social-row {
-  color: #5f51ba;
+  color: #229172;
 }
 .cid-sbSBdMlbPk .mbr-section-subtitle {
   color: #fafafa;
@@ -1655,6 +1654,7 @@ a {
 .cid-sbSBdMlbPk .mbr-section-btn,
 .cid-sbSBdMlbPk .social-row {
   text-align: left;
+  color: #fafafa;
 }
 .cid-sbOookYcAg {
   z-index: 1000;

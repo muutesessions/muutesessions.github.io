@@ -1121,7 +1121,7 @@ a {
 }
 .cid-sbJGAaFe2N {
   padding-top: 5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
   background-color: #6a5acd;
 }
 .cid-sbJGAaFe2N img,
@@ -1141,7 +1141,7 @@ a {
 .cid-sbJGAaFe2N .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #ffffff;
+  background: #fafafa;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -1577,6 +1577,7 @@ a {
 .cid-sbSBdMlbPk {
   padding-top: 5rem;
   padding-bottom: 3rem;
+  background: #29ab87;
 }
 .cid-sbSBdMlbPk .team-card {
   margin-bottom: 2rem;
@@ -1586,7 +1587,7 @@ a {
   transform: translateY(-10px);
 }
 .cid-sbSBdMlbPk .card-wrap {
-  background: #29ab87;
+  background: #229172;
   border-radius: 4px;
 }
 @media (max-width: 991px) {
@@ -1596,8 +1597,6 @@ a {
 }
 .cid-sbSBdMlbPk .card-wrap .image-wrap img {
   width: 100%;
-  border-radius: 25%;
-  mix-blend-mode: darken;
 }
 @media (min-width: 768px) {
   .cid-sbSBdMlbPk .card-wrap .content-wrap {
@@ -1619,7 +1618,7 @@ a {
   margin-right: 0.6rem;
   margin-bottom: 1rem;
   padding: 0.5rem;
-  border: 2px solid #229172;
+  border: 2px solid #ffffff;
   transition: all 0.3s;
 }
 .cid-sbSBdMlbPk .social-row .soc-item .mbr-iconfont {
@@ -1627,14 +1626,14 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
-  color: #229172;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 .cid-sbSBdMlbPk .social-row .soc-item:hover {
-  background-color: #229172;
+  background-color: #ffffff;
 }
 .cid-sbSBdMlbPk .social-row .soc-item:hover .mbr-iconfont {
-  color: #ffffff;
+  color: #000000;
 }
 .cid-sbSBdMlbPk .mbr-section-title {
   color: #ffffff;
@@ -1645,7 +1644,7 @@ a {
 }
 .cid-sbSBdMlbPk .mbr-role,
 .cid-sbSBdMlbPk .social-row {
-  color: #229172;
+  color: #29ab87;
 }
 .cid-sbSBdMlbPk .mbr-section-subtitle {
   color: #fafafa;

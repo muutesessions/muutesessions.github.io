@@ -31,7 +31,7 @@
 </head>
 <body>
   
-  <section class="menu menu1 cid-sbOookYcAg" once="menu" id="menu1-1f">
+  <section class="menu menu1 cid-sbOookYcAg" once="menu" id="menu1-50">
     
 
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -61,160 +61,44 @@
     </nav>
 </section>
 
-<section class="content5 cid-sc1139oCSe" id="content5-1i">
+<section class="header8 cid-scEAWkq2C0 mbr-fullscreen mbr-parallax-background" id="header8-51">
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(228, 63, 63);"></div>
     
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-9">
-                
-                <h4 class="mbr-section-subtitle mbr-fonts-style mb-4 display-5">
-                    ATTENTION
-                </h4>
-                <p class="mbr-text mbr-fonts-style display-7">Avant d'effectuer une quelconque transaction, veuillez vous assurer :<br>① d'avoir soigneusement rempli et soumis le formulaire précédant<br>② d'avoir accepter les termes de notre collaboration<br><br>↩ <a href="services.html#form5-1b" class="text-white" target="_blank">retour au formulaire</a></p>
+            <div class="col-12">
+                <h3 class="mbr-section-title mbr-white mbr-fonts-style saving display-2">
+                    <strong>en developpement</strong><span>.</span><span>.</span><span>.</span><strong><br></strong><strong><br></strong></h3>
+                <p class="mbr-text mbr-fonts-style mbr-white mb-4 display-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br></p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="mbr-section mbr-section--no-padding cid-sc0PtFAIBI mbr-parallax-background" id="witsec-html-block-1g">
+<section class="cid-RfeNSpgHEl" id="design-block-RfeNSpgHEl">
+
+
+
+<div style="padding:4rem; color: #ffffff; background-color:#000000;" class="hidden">Footer Bar 🡇 You can hide in editor ⚙ to avoid overlap</div>
+
+<div class="wrap show">
+
+<h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style copyright display-7">Codé par Thibault Lenoir ©2020 </h3>
 
 
 
 
 
-<div id="smart-button-container" style="font-family: Montserrat">
-      <div style="text-align: center;">
-        <div style="margin-bottom: 1.25rem;">
-          <p></p>
-          <select id="item-options"><option value="ARTWORK" price="15" style="font-family: Montserrat">Artwork - €15</option><option value="VIDEO" price="30" style="font-family: Montserrat">Video - €30</option><option value="OST" price="25" style="font-family: Montserrat">OST - €25</option><option value="PACK" price="50" style="font-family: Montserrat">Pack - €50</option></select>
-          <select style="visibility: hidden" id="quantitySelect"></select>
-        </div>
-      <div id="paypal-button-container"></div>
-      </div>
-    </div>
-    <script src="https://www.paypal.com/sdk/js?client-id=AQFrxV2dJ8uQ-9eE_zfdwwc_oh9nQCjfr7csc48izyTcDoVixXCX4cwlQIEpKdYe8UDllNpFREB7-gaK&amp;currency=EUR" data-sdk-integration-source="button-factory"></script>
-    <script>
-      function initPayPalButton() {
-        var shipping = 0;
-        var itemOptions = document.querySelector("#smart-button-container #item-options");
-    var quantity = parseInt();
-    var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
-    if (!isNaN(quantity)) {
-      quantitySelect.style.visibility = "visible";
-    }
-    var orderDescription = '';
-    if(orderDescription === '') {
-      orderDescription = 'Item';
-    }
-    paypal.Buttons({
-      style: {
-        shape: 'rect',
-        color: 'white',
-        layout: 'vertical',
-        label: 'buynow',
-        
-      },
-      createOrder: function(data, actions) {
-        var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
-        var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
-        var tax = (0 === 0) ? 0 : (selectedItemPrice * (parseFloat(0)/100));
-        if(quantitySelect.options.length > 0) {
-          quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
-        } else {
-          quantity = 1;
-        }
 
-        tax *= quantity;
-        tax = Math.round(tax * 100) / 100;
-        var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
-        priceTotal = Math.round(priceTotal * 100) / 100;
-        var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
 
-        return actions.order.create({
-          purchase_units: [{
-            description: orderDescription,
-            amount: {
-              currency_code: 'EUR',
-              value: priceTotal,
-              breakdown: {
-                item_total: {
-                  currency_code: 'EUR',
-                  value: itemTotalValue,
-                },
-                shipping: {
-                  currency_code: 'EUR',
-                  value: shipping,
-                },
-                tax_total: {
-                  currency_code: 'EUR',
-                  value: tax,
-                }
-              }
-            },
-            items: [{
-              name: selectedItemDescription,
-              unit_amount: {
-                currency_code: 'EUR',
-                value: selectedItemPrice,
-              },
-              quantity: quantity
-            }]
-          }]
-        });
-      },
-      onApprove: function(data, actions) {
-        return actions.order.capture().then(function(details) {
-          alert('Transaction completed by ' + details.payer.name.given_name + '!');
-        });
-      },
-      onError: function(err) {
-        console.log(err);
-      },
-    }).render('#paypal-button-container');
-  }
-  initPayPalButton();
-    </script>
 
-</section>
 
-<section class="footer3 cid-scikGFVCVf mbr-reveal mbr-parallax-background" once="footers" id="footer3-31">
+<a class="item mbr-iconfont mobi-mbri-hot-cup mobi-mbri" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255);" href="https://www.buymeacoffee.com/muutesessions" media-simple="true"></a>
 
-    
+</div>
 
-    <div class="mbr-overlay" style="opacity: 0.9; background-color: rgb(228, 63, 63);"></div>
-
-    <div class="container">
-        <div class="media-container-row align-center mbr-white">
-            
-            <div class="row social-row">
-                <div class="social-list align-right pb-2">
-                    
-                    
-                    
-                    
-                    
-                    
-                <div class="soc-item">
-                        <a href="https://soundcloud.com/muutesessions">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-soundcloud socicon"></span>
-                        </a>
-                    </div><div class="soc-item">
-                        <a href="https://www.youtube.com/channel/UCiA2e-VDkHs4Itmqb8mMUXA">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
-                        </a>
-                    </div><div class="soc-item">
-                        <a href="https://www.instagram.com/muutesessions">
-                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
-                        </a>
-                    </div></div>
-            </div>
-            <div class="row row-copirayt">
-                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
-                    © Copyright 2020 Muute. Tous Droits Réservés.
-                </p>
-            </div>
-        </div>
-    </div>
 </section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   

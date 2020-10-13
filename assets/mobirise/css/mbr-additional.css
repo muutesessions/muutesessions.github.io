@@ -1038,17 +1038,22 @@ a {
 .cid-sbH1QCcgUd {
   background-image: url("../../../assets/images/banner-1920x1080.png");
 }
-.cid-sbH1QCcgUd .mbr-section-title:after {
-  content: "MUUTE";
+.cid-sbH1QCcgUd .mbr-section-title {
   text-align: center;
   color: #ffffff;
+  animation: glow 2s ease-in-out both infinite;
 }
-.cid-sbH1QCcgUd .mbr-section-title:hover:after {
-  content: "SSSNS";
-}
-.cid-sbH1QCcgUd .mbr-text,
-.cid-sbH1QCcgUd .mbr-section-btn {
-  color: #fafafa;
+@keyframes glow {
+  0%,
+  100% {
+    text-shadow: 0 0 8.33333333px snow, 0 -25px 50px mediumaquamarine, -25px 25px 50px mediumslateblue, 25px 25px 50px mediumaquamarine;
+  }
+  33% {
+    text-shadow: 0 0 8.33333333px snow, 0 -25px 50px mediumpurple, -25px 25px 50px mediumslateblue, 25px 25px 50px mediumpurple;
+  }
+  66% {
+    text-shadow: 0 0 8.33333333px snow, 0 -25px 50px mediumslateblue, -25px 25px 50px mediumpurple, 25px 25px 50px mediumslateblue;
+  }
 }
 .cid-sbH1QCcgUd .btn:after {
   content: "programmation";

@@ -1046,13 +1046,13 @@ a {
 @keyframes glow {
   0%,
   100% {
-    text-shadow: 0 0 8.33333333px snow, 0 -25px 50px mediumaquamarine, -25px 25px 50px mediumslateblue, 25px 25px 50px mediumaquamarine;
+    text-shadow: 0 0 8.33333333px snow, 0 -10px 20px mediumaquamarine, -10px 10px 20px mediumslateblue, 10px 10px 20px mediumaquamarine;
   }
   33% {
-    text-shadow: 0 0 8.33333333px snow, 0 -25px 50px mediumpurple, -25px 25px 50px mediumslateblue, 25px 25px 50px mediumpurple;
+    text-shadow: 0 0 8.33333333px snow, 0 -10px 20px mediumpurple, -10px 10px 20px mediumslateblue, 10px 10px 20px mediumpurple;
   }
   66% {
-    text-shadow: 0 0 8.33333333px snow, 0 -25px 50px mediumslateblue, -25px 25px 50px mediumpurple, 25px 25px 50px mediumslateblue;
+    text-shadow: 0 0 8.33333333px snow, 0 -10px 20px mediumslateblue, -10px 10px 20px mediumpurple, 10px 10px 20px mediumslateblue;
   }
 }
 .cid-sbH1QCcgUd .btn:after {

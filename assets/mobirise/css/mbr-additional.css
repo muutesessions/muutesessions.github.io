@@ -1648,9 +1648,12 @@ a {
   color: #fafafa;
 }
 .cid-sbSBdMlbPk .card-text,
-.cid-sbSBdMlbPk .mbr-section-btn,
 .cid-sbSBdMlbPk .social-row {
   text-align: left;
+  color: #fafafa;
+}
+.cid-sbSBdMlbPk .mbr-section-btn {
+  text-align: right;
   color: #fafafa;
 }
 .cid-sbOookYcAg {
@@ -2448,7 +2451,7 @@ a {
   bottom: 50;
   right: 0;
   padding-right: 20px;
-  background-color: #000000;
+  background-color: #e43f3f;
   z-index: 2;
   visibility: visible;
 }

@@ -1058,7 +1058,7 @@ a {
   content: "bientot ...";
 }
 .cid-sbH1QCcgUd .gradient {
-  height: 4%;
+  height: 21%;
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -1084,7 +1084,7 @@ a {
 }
 .cid-seao1VENek {
   padding-top: 1rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0rem;
   background-color: #000000;
 }
 .cid-seao1VENek .nav-tabs .nav-item.open .nav-link:focus,
@@ -1145,20 +1145,20 @@ a {
   }
 }
 .cid-vaN3JntInY {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background: linear-gradient(360deg, #5f51ba, #232323);
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: linear-gradient(360deg, #232323, #6a5acd);
 }
 .cid-vaN3JntInY .pulsingButton {
   position: relative;
-  width: 114px;
-  height: 114px;
+  width: 110px;
+  height: 110px;
   border: none;
   box-shadow: 0 0 0 0 #5f51ba;
   border-radius: 50%;
   background-color: #6a5acd24;
   background-image: url("../../../assets/images/cup-666x1000.png");
-  background-size: 70%, cover;
+  background-size: 60%, cover;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1169,27 +1169,34 @@ a {
 }
 @-webkit-keyframes pulse {
   to {
-    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 55px rgba(232, 76, 61, 0);
   }
 }
 @-moz-keyframes pulse {
   to {
-    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 55px rgba(232, 76, 61, 0);
   }
 }
 @-ms-keyframes pulse {
   to {
-    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 55px rgba(232, 76, 61, 0);
   }
 }
 @keyframes pulse {
   to {
-    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+    box-shadow: 0 0 0 55px rgba(232, 76, 61, 0);
   }
 }
+.cid-vaN3JntInY .gradient {
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background: linear-gradient(#000000, transparent);
+}
 .cid-seaHRcxtFR {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
   background-color: #5f51ba;
 }
 .cid-seaHRcxtFR .mbr-overlay {
@@ -1211,15 +1218,15 @@ a {
 .cid-seaHRcxtFR .mbr-section-title {
   color: #6a5acd;
 }
-.cid-sebAv413VT {
+.cid-sfM49Wz2Yr {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #29ab87;
 }
-.cid-sebAv413VT P {
+.cid-sfM49Wz2Yr P {
   color: #767676;
 }
-.cid-sebAv413VT hr {
+.cid-sfM49Wz2Yr hr {
   border: none;
   height: 50px;
   width: 100%;

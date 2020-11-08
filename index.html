@@ -81,64 +81,7 @@
   <a href="https://www.instagram.com/muutesessions" target="_blank" class="socicon socicon-instagram mbr-iconfont-btn" style="font-size: 22px;"></a>
 </div>
 
-</section><script class="cid-sbH1QCcgUd" id="header6-3" data-rv-view="29">
-  var TxtRotate = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
-  this.tick();
-  this.isDeleting = false;
-};
-
-TxtRotate.prototype.tick = function() {
-  var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
-
-  if (this.isDeleting) {
-    this.txt = fullTxt.substring(0, this.txt.length - 1);
-  } else {
-    this.txt = fullTxt.substring(0, this.txt.length + 1);
-  }
-
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-  var that = this;
-  var delta = 300 - Math.random() * 100;
-
-  if (this.isDeleting) { delta /= 2; }
-
-  if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
-    this.isDeleting = true;
-  } else if (this.isDeleting && this.txt === '') {
-    this.isDeleting = false;
-    this.loopNum++;
-    delta = 500;
-  }
-
-  setTimeout(function() {
-    that.tick();
-  }, delta);
-};
-
-window.onload = function() {
-  var elements = document.getElementsByClassName('txt-rotate');
-  for (var i=0; i<elements.length; i++) {
-    var toRotate = elements[i].getAttribute('data-rotate');
-    var period = elements[i].getAttribute('data-period');
-    if (toRotate) {
-      new TxtRotate(elements[i], JSON.parse(toRotate), period);
-    }
-  }
-  // INJECT CSS
-  var css = document.createElement("style");
-  css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-  document.body.appendChild(css);
-};
-</script>
+</section>
 
 <section class="tabs content18 cid-seao1VENek" id="tabs1-5k">
 
@@ -152,9 +95,9 @@ window.onload = function() {
                 <ul class="nav nav-tabs mb-4" role="tablist">
                     <li class="nav-item first mbr-fonts-style"><a class="nav-link mbr-fonts-style show active display-7" role="tab" data-toggle="tab" href="#tabs1-5k_tab0" aria-selected="true">
                             <strong>Visualiseurs</strong></a></li>
-                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" href="#tabs1-5k_tab1" aria-selected="true">
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style display-7" role="tab" data-toggle="tab" href="#tabs1-5k_tab1" aria-selected="false">
                             <strong>OSTs</strong></a></li>
-                    <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" href="#tabs1-5k_tab2" aria-selected="true"><strong>Découvertes</strong></a></li>
+                    <li class="nav-item"><a class="nav-link mbr-fonts-style display-7" role="tab" data-toggle="tab" href="#tabs1-5k_tab2" aria-selected="false"><strong>Découvertes</strong></a></li>
                     <li class="nav-item"><a class="nav-link mbr-fonts-style active display-7" role="tab" data-toggle="tab" href="#tabs1-5k_tab3" aria-selected="true"><strong>Equipement</strong></a></li>
                     
                     
@@ -188,6 +131,8 @@ window.onload = function() {
 
     
 
+    <div class="gradient"></div>
+
     <div class="container">
         <div class="media-container-row align-center">
 
@@ -211,7 +156,7 @@ window.onload = function() {
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="z0B2lAUW4Lu2LlqEnjZNWa08LHqGedDcFiOY6oofssD2mYNnb0WgS/qj/h9fcuq7eEv26q+CpkMh68KJSfQFrqZotvWY/OJoK1V8ZSZVOixSBQpOMm+cTkeBWClMAjn0">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="g6ZtGsaV7llbImDenO4CD1z0ab7YuCIt/BWNgrbHTFkHCRsZHZd9fqhucQwZsiizdSZjPr+oirBq8A8dWJhqmzGq2u5xblx+iJxH1MvoQTdk2OZkfbh59CG82UmQRGMF">
                     <div class="">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Transférer avec succès !</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oupsi..?</div>
@@ -233,7 +178,7 @@ window.onload = function() {
     </div>
 </section>
 
-<section class="header1 cid-sebAv413VT" id="design-block-6c">
+<section class="header1 cid-sfM49Wz2Yr" id="design-block-6f">
 
     
 

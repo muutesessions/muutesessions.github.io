@@ -1083,7 +1083,7 @@ a {
   filter: drop-shadow(0 0 1px #fafafa);
 }
 .cid-seao1VENek {
-  padding-top: 0rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   background-color: #000000;
 }
@@ -1108,7 +1108,7 @@ a {
   border-radius: 0 !important;
 }
 .cid-seao1VENek .nav-tabs .nav-link:not(.active) {
-  color: #232323;
+  color: #5f51ba;
 }
 .cid-seao1VENek .nav-tabs .nav-item {
   margin-right: 1.5rem;
@@ -1144,26 +1144,52 @@ a {
     width: 100%;
   }
 }
-.cid-1lv4md81xO {
-  padding-top: 0px;
-  padding-bottom: 15px;
-  background-color: #5f51ba;
+.cid-vaN3JntInY {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(360deg, #5f51ba, #232323);
 }
-.cid-1lv4md81xO P {
-  color: #767676;
-}
-.cid-1lv4md81xO hr {
+.cid-vaN3JntInY .pulsingButton {
+  position: relative;
+  width: 114px;
+  height: 114px;
   border: none;
-  height: 50px;
-  width: 100%;
-  margin-top: 0;
-  border-bottom: 1px solid #000000;
-  box-shadow: 0 20px 20px -20px #000000;
-  margin: -50px auto 10px;
+  box-shadow: 0 0 0 0 #5f51ba;
+  border-radius: 50%;
+  background-color: #6a5acd24;
+  background-image: url("../../../assets/images/cup-666x1000.png");
+  background-size: 70%, cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+@-webkit-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+  }
+}
+@-moz-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+  }
+}
+@-ms-keyframes pulse {
+  to {
+    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+  }
+}
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 86px rgba(232, 76, 61, 0);
+  }
 }
 .cid-seaHRcxtFR {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
   background-color: #5f51ba;
 }
 .cid-seaHRcxtFR .mbr-overlay {

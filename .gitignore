@@ -1,2 +1,3 @@
-
 project.mobirise
+dist/
+node_modules/

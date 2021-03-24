@@ -1082,6 +1082,39 @@ a {
   background-color: #00000000;
   filter: drop-shadow(0 0 1px #fafafa);
 }
+.cid-ssArmH6q1m {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #000000;
+}
+.cid-ssArmH6q1m .card .card-header {
+  background-color: transparent;
+  margin-bottom: 0;
+}
+.cid-ssArmH6q1m .panel-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cid-ssArmH6q1m .mbr-iconfont {
+  padding-left: 1rem;
+  font-family: 'Moririse2' !important;
+  font-size: 1.4rem !important;
+  color: #6a5acd;
+}
+.cid-ssArmH6q1m .panel-body,
+.cid-ssArmH6q1m .card-header {
+  padding: 1rem 0;
+}
+.cid-ssArmH6q1m .panel-title-edit {
+  color: #ffffff;
+}
+.cid-ssArmH6q1m H3 {
+  color: #353535;
+}
+.cid-ssArmH6q1m .panel-text {
+  color: #fafafa;
+}
 .cid-seao1VENek {
   padding-top: 1rem;
   padding-bottom: 0rem;
@@ -1108,7 +1141,7 @@ a {
   border-radius: 0 !important;
 }
 .cid-seao1VENek .nav-tabs .nav-link:not(.active) {
-  color: #6a5acd;
+  color: #5f51ba;
 }
 .cid-seao1VENek .nav-tabs .nav-item {
   margin-right: 1.5rem;

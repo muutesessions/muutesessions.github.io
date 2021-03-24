@@ -1108,7 +1108,7 @@ a {
   border-radius: 0 !important;
 }
 .cid-seao1VENek .nav-tabs .nav-link:not(.active) {
-  color: #5f51ba;
+  color: #6a5acd;
 }
 .cid-seao1VENek .nav-tabs .nav-item {
   margin-right: 1.5rem;
@@ -1147,7 +1147,7 @@ a {
 .cid-vaN3JntInY {
   padding-top: 0px;
   padding-bottom: 60px;
-  background: linear-gradient(360deg, #232323, #6a5acd);
+  background: linear-gradient(0deg, #232323, #6a5acd);
 }
 .cid-vaN3JntInY .gradient {
   height: 100%;
@@ -1219,10 +1219,27 @@ a {
 .cid-ssA2d4uX7e .mbr-section-subtitle {
   color: #6a5acd;
 }
+.cid-ssAn6WwAcs {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #29ab87;
+}
+.cid-ssAn6WwAcs P {
+  color: #000000;
+}
+.cid-ssAn6WwAcs hr {
+  border: none;
+  height: 50px;
+  width: 100%;
+  margin-top: 0;
+  border-bottom: 1px solid #29ab87;
+  box-shadow: 0 20px 20px -20px #232323;
+  margin: -50px auto 10px;
+}
 .cid-seaHRcxtFR {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  background-color: #5f51ba;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #29ab87;
 }
 .cid-seaHRcxtFR .mbr-overlay {
   background-color: #ffffff;
@@ -1241,24 +1258,7 @@ a {
   }
 }
 .cid-seaHRcxtFR .mbr-section-title {
-  color: #6a5acd;
-}
-.cid-sfM49Wz2Yr {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #29ab87;
-}
-.cid-sfM49Wz2Yr P {
-  color: #767676;
-}
-.cid-sfM49Wz2Yr hr {
-  border: none;
-  height: 50px;
-  width: 100%;
-  margin-top: 0;
-  border-bottom: 1px solid #5f51ba;
-  box-shadow: 0 20px 20px -20px #5f51ba;
-  margin: -50px auto 10px;
+  color: #229172;
 }
 .cid-sebzAIqBbS {
   padding-top: 2rem;

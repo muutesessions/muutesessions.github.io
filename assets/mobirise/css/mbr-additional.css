@@ -1082,46 +1082,6 @@ a {
   background-color: #00000000;
   filter: drop-shadow(0 0 1px #fafafa);
 }
-#hrblock-block-73 hr {
-  margin: 0;
-}
-.cid-ssArmH6q1m {
-  padding-top: 1rem;
-  padding-bottom: 0rem;
-  background-color: #000000;
-}
-.cid-ssArmH6q1m .card .card-header {
-  background-color: transparent;
-  margin-bottom: 0;
-}
-.cid-ssArmH6q1m .panel-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.cid-ssArmH6q1m .mbr-iconfont {
-  padding-left: 1rem;
-  font-family: 'Moririse2' !important;
-  font-size: 1.4rem !important;
-  color: #6a5acd;
-}
-.cid-ssArmH6q1m .panel-body,
-.cid-ssArmH6q1m .card-header {
-  padding: 1rem 0;
-}
-.cid-ssArmH6q1m .panel-title-edit {
-  color: #fafafa;
-  text-align: left;
-}
-.cid-ssArmH6q1m H3 {
-  color: #6a5acd;
-}
-.cid-ssArmH6q1m .panel-text {
-  color: #bbbbbb;
-}
-.cid-ssArmH6q1m H4 {
-  color: #353535;
-}
 #hrblock-block-72 hr {
   margin: 0;
 }

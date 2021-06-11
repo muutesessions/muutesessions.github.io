@@ -108,7 +108,7 @@
 }
 
 .u-section-1 .u-text-4 {
-  margin: 0 0 0 -30px;
+  margin: -210px -260px 0 230px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -180,6 +180,7 @@
 
   .u-section-1 .u-text-4 {
     margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-shape-3 {
@@ -354,11 +355,11 @@
   }
 
   .u-section-1 .u-container-layout-2 {
+    padding-top: 20px;
     padding-right: 10px;
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: 0;
     margin-left: auto;
   }
 

@@ -34940,7 +34940,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-image-1 {
-    width: 31px;
+    width: auto;
+    height: auto;
   }
 }
 .u-footer .u-sheet-1 {

@@ -1,0 +1,8 @@
+-qiC2%Ps0u0%s%uN100I0%I0H0%kQo0A25000%f#f -F "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826" -%F "" -%l "fr, en, *" https://muute.umso.co -O1 "C:\Users\thiba\Documents\GitHub\muute-art.github.io" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -*POST*
+File generated automatically on Wed, 30 Jun 2021 16:45:19, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

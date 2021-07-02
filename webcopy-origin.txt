@@ -1,40 +1,40 @@
 Uri: https://muute.umso.co/
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\index.htm
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\index.htm
 Content Type: text/html
 
 Uri: https://muute.umso.co/lib_rlsEWlduUxcLbAvJ/e8n7gxyr0a2nomt1.png
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\lib_rlsEWlduUxcLbAvJ\e8n7gxyr0a2nomt1.png
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\lib_rlsEWlduUxcLbAvJ\e8n7gxyr0a2nomt1.png
 Content Type: image/png
 
 Uri: https://muute.umso.co/css/6xp97xe9t4n7-71563204cddc40ccd588192d7b42d7fc58444d20.css
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\css\6xp97xe9t4n7-71563204cddc40ccd588192d7b42d7fc58444d20.css
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\css\6xp97xe9t4n7-71563204cddc40ccd588192d7b42d7fc58444d20.css
 Content Type: text/css
 
 Uri: https://muute.umso.co/0/elode
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\0\elode.html
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\0\elode.html
 Content Type: text/html
 
 Uri: https://muute.umso.co/0
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\0.html
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\0.html
 Content Type: text/html
 
 Uri: https://muute.umso.co/0/playlist
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\0\playlist.html
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\0\playlist.html
 Content Type: text/html
 
 Uri: https://muute.umso.co/lib_rlsEWlduUxcLbAvJ/sxqi66kn27xyi06q.png?w=160
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\lib_rlsEWlduUxcLbAvJ\sxqi66kn27xyi06q.png
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\lib_rlsEWlduUxcLbAvJ\sxqi66kn27xyi06q.png
 Content Type: image/png
 
 Uri: https://muute.umso.co/lib_rlsEWlduUxcLbAvJ/6ro1so2a496k2um3.jpg?w=396&h=200&fit=crop
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\lib_rlsEWlduUxcLbAvJ\6ro1so2a496k2um3.jpg
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\lib_rlsEWlduUxcLbAvJ\6ro1so2a496k2um3.jpg
 Content Type: image/jpeg
 
 Uri: https://muute.umso.co/lib_rlsEWlduUxcLbAvJ/6ro1so2a496k2um3.jpg?w=792&h=400&fit=crop
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\lib_rlsEWlduUxcLbAvJ\6ro1so2a496k2um3-1.jpg
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\lib_rlsEWlduUxcLbAvJ\6ro1so2a496k2um3-1.jpg
 Content Type: image/jpeg
 
 Uri: https://muute.umso.co/0/privacy
-File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\0\privacy.html
+File Name: C:\Users\thiba\Documents\GitHub\muute-art.github.io\muute.umso.co\0\privacy.html
 Content Type: text/html
 
